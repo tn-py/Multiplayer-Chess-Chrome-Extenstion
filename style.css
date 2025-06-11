@@ -126,3 +126,11 @@ h1 {
   border: 1px solid #ced4da;
   font-size: 14px;
 }
+
+.valid-move-highlight {
+  background-color: rgba(102, 204, 102, 0.5) !important; /* Semi-transparent green */
+  /* Add a small dot or circle in the middle for empty squares if desired */
+}
+.valid-move-highlight.square.dark { /* Ensure contrast on dark squares */
+    background-color: rgba(102, 204, 102, 0.7) !important;
+}
