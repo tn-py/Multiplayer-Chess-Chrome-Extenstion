@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Chess AI Extension",
+  "version": "0.1",
+  "description": "Play chess against an AI.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ]
+}
